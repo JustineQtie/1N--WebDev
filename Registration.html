@@ -1,0 +1,113 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>PUP ATHLETES</title>
+  <link rel="stylesheet" type="text/css" href="Login-Registration.css">
+  <script src="https://kit.fontawesome.com/fb1d6496f0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <!-- Navigation Menu -->
+    <div class="navbar">
+      <div class="logo">SINTANG ATLETA</div>
+      <div class="nav-container">
+        <nav>
+          <ul>
+            <li><a href="HomePage.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="LOGIN.html">Login</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <a href="Registration.html" class="button">Sign In</a>
+      </div>
+    </div>
+  </header>
+   
+
+  <div class="appform">
+    <form action="https://script.google.com/macros/s/AKfycbwv28nNTKd_QNibQ_kzKMLrM5F5kfbtqcRi2L4rOlTpZKLLYMjyrNCsjIasg5I7IR3U/exec" method="POST">
+      <h1>Registration Form</h1>
+
+      <div class="reg-input">
+        <div class="input">
+          <input type="text" name="First Name" placeholder="First Name" required>
+        </div>
+        <div class="input">
+          <input type="text" name="Last Name" placeholder="Last Name" required>
+        </div>
+        <div class="input">
+          <input type="date" name="Birthdate" placeholder="Birthdate" required>
+        </div>
+        <div class="input">
+          <input type="text" name="Sport" placeholder="Sport" required>
+        </div>
+        <div class="input">
+          <input type="text" name="Student Number" pattern="\d{4}-\d{5}-[A-Z]{2}-\d" title="Enter a valid student number (e.g., 2021-08515-MN-0)" placeholder="Student Number" required>
+        </div>
+        <div class="input">
+          <input type="email" name="Email" placeholder="Email" required>
+        </div>
+        <div class="input">
+          <input type="password" name="Password" placeholder="Password" required>
+        </div>
+        <div class="input">
+          <input type="password" name="Confirm Password" placeholder="Confirm Password" required>
+        </div>
+        <div class="gender">
+          <span class="gender-title">Gender</span>
+          <div class="radio-group">
+            <label>
+              <input type="radio" name="Gender" value="Male">
+              Male
+            </label>
+            <label>
+              <input type="radio" name="Gender" value="Female">
+              Female
+            </label>
+            <label>
+              <input type="radio" name="Gender" value="Prefer not to say">
+              Prefer not to say
+            </label>
+          </div>
+        </div>
+
+        <label><input type="checkbox" required>I hereby declare that all information provided above is true and correct</label>
+
+        <button type="submit" class="btn2">Register</button>
+      </div>
+    </form>
+  </div>
+  <footer>
+    <div class ="fcontainer">
+      <div class="footer-content">
+        <h3>Contacts</h3>
+        <p>Webmail:sintangatleta@iskolarngbayan.pup.edu.ph</p>
+        <p>Phone:+6394 285 69876</p>
+        <p>Address:PUP A. Mabini Campus Anonas Street, Sta. Mesa, Manila,Philippines 1016</p>
+      </div>
+      <div class="footer-content">
+        <h3>Quick Links</h3>
+          <ul class="list">
+          <li><a href="HomePage.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="LOGIN.html">Login</a></li>
+          <li><a href="#">Contacts</a></li>
+          </ul>
+      </div>
+      <div class="footer-content">
+        <h3>Follow Us</h3>
+        <ul class="social-icons">
+        <li><a href=""><i class="fab fa-facebook"></i></a></li>
+        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+        <li><a href=""><i class="fab fa-youtube"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-bar">
+      <p>&copy; 2023 your company. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

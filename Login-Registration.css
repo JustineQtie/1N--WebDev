@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+body {
+  margin: 0;
+  background-image: url("Background.jpg");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  zoom:.70;
+}
+
+header {
+  background-color: rgba(136, 7, 7, 0.473);
+  font-family: 'Times New Roman', Times, serif;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  height: 130px;
+  width: 100%;
+  backdrop-filter: blur(20px);
+  color: #fff;
+  box-sizing: border-box;
+  align-items: center;
+  z-index: 3;
+}
+
+h1 {
+  color: black;
+  font-weight: 590;
+}
+
+main {
+  margin: 0;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.logo {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+  color: #000000;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: medium;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+.nav-container nav ul {
+  display: flex;
+}
+.nav-container nav li {
+  margin-right: 20px;
+}
+.nav-container a {
+  font-size: 1.2rem;
+  font-weight: 700; /* Adjust the font weight to make it thicker */
+  color: #000000;
+  transition: color 0.5s;
+}
+
+.navbar a:hover {
+  background-color: rgba(255, 0, 0, 0.205);
+  color: #fff;
+  font-weight: 700; /* Adjust the font weight on hover */
+  transition: background-color 0.5s, color 0.5s, font-weight 0.5s;
+}
+.button {
+  background-color: #ca2727;
+  padding: 10px 15px;
+  color: #ffffff !important;
+  border-radius: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.loginform form {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.loginform {
+  width: 420px;
+  background: transparent;
+  border: 2px solid rgba(43, 6, 6, 0.938);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.507);
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.loginform h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.loginform .forminput {
+  width: 100%;
+  height: 50px;
+  margin: 10px 0;
+}
+
+.forminput input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(19, 6, 6, 0.884);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+
+.forminput input::placeholder {
+  color: #fff;
+}
+
+.forminput .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+.remember-forgot label input {
+  accent-color: #fff;
+  margin-right: 3px;
+}
+
+.remember-forgot a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 140px;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.loginform .btn {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.loginform .registration-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.registration-link p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.registration-link p a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 30px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.appform form {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.appform {
+  width: 100%;
+  max-width: 750px;
+  background-color: rgba(0, 0, 0, 0.425);
+  border: 2px solid rgba(255, 255, 255, 0.445);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  color: #fff;
+  padding: 20px 37px 65px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.appform h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reg-input {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.reg-input .input {
+  position: relative;
+  width: 47%;
+  height: 50px;
+  margin: 40px 0;
+}
+
+.reg-input .input input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  font-size: 19px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.reg-input .input input::placeholder {
+  color: #fff;
+}
+
+.appform label {
+  display: inline-block;
+  font-size: 14.5px;
+  margin: 11px 0 25px;
+}
+
+.appform label input {
+  accent-color: #fff;
+  margin-right: 12px;
+}
+
+.appform .btn2 {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #444;
+  font-weight: 600;
+}
+.appform .gender {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.appform .gender-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+form .gender label{
+  font-size: 15px;
+  font-weight: 500;
+ }
+
+.appform .radio-group {
+  display: flex;
+  gap: 30px;
+}
+
+.appform .radio-group label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.appform .radio-group input {
+  margin-right: 10px;
+}
+
+.appform label.checkbox-container {
+  display: block;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.appform label.checkbox-container input {
+  margin-right: 8px;
+}
+
+.appform .btn2:hover {
+  background-color: #3498db; /* Adjust color as needed */
+  color: #fff;
+}
+footer {
+  background: #343434;
+  padding-top: 50px;
+  margin-top: 20px;
+}
+
+.fcontainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-content {
+  width: 30%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.footer-content h3 {
+  font-size: 23px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer-content p {
+  width: 100%;
+  margin: auto;
+  padding: 7px;
+  color: #ffffff;
+}
+
+.footer-content ul {
+  text-align: center;
+  padding: 0;
+}
+
+.list li {
+  width: auto;
+  text-align: center;
+  list-style-type: none;
+  padding: 7px;
+  position: relative;
+  color: #ffffff;
+}
+
+.list li::before {
+  content: '';
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 100%;
+  height: 2px;
+  background: #ca2727;
+  transition: 0.5s;
+}
+
+.list li:hover::before {
+  width: 70px;
+}
+
+.social-icons li {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+}
+
+.social-icons i {
+  color: white;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ca2727;
+}
+
+.social-icons i:hover {
+  color: #ca2727;
+}
+
+.bottom-bar {
+  background: #212121;
+  text-align: center;
+  padding: 25px;
+}
+
+.bottom-bar p {
+  color: #ffffff;
+  margin: 0;
+  font-size: 16px;
+  padding: 7px;
+}
+
+.bottom-bar a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.bottom-bar a:hover {
+  color: #ca2727;
+}

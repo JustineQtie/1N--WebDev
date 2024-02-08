@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>PUP ATHLETES</title>
+        <link rel="stylesheet" type="text/css" href="Login-Registration.css">
+        <script src="https://kit.fontawesome.com/fb1d6496f0.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <!-- Navigation Menu -->
+      <div class="navbar">
+        <div class="logo">SINTANG ATLETA</div>
+        <div class="nav-container">
+          <nav>
+            <ul>
+              <li><a href="Menu.html">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="LOGIN.html">Login</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </nav>
+          <a href="Finals.html" class="button">Sign In</a>
+        </div>
+      </div>
+        
+        </header>
+        <div class="loginform">
+            <form action="/action_page.php">
+                <h1>LOGIN</h1>
+                <div class="forminput">
+                    <input type="text" placeholder="Student Number" pattern="\d{4}-\d{5}-[A-Z]{2}-\d" title="Enter a valid student number (e.g., 2021-08515-MN-0)" required>
+                </div>
+                <div class="forminput">
+                    <input type="text" placeholder="Athlete Number" pattern="\d{4}-[A-Z]{2}-\d" title="Enter a valid athlete number (e.g., 1234-MN-0)" required>
+                </div>
+                <div class="forminput">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="forminput">
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+
+                <button type="submit" class="btn">Login</button>
+
+                <div class="registration-link">
+                    <p>Not an athlete yet? <a href="Finals.html">Register</a></p>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <div class ="fcontainer">
+              <div class="footer-content">
+                <h3>Contacts</h3>
+                <p>Webmail:sintangatleta@iskolarngbayan.pup.edu.ph</p>
+                <p>Phone:+6394 285 69876</p>
+                <p>Address:PUP A. Mabini Campus Anonas Street, Sta. Mesa, Manila,Philippines 1016</p>
+              </div>
+              <div class="footer-content">
+                <h3>Quick Links</h3>
+                  <ul class="list">
+                  <li><a href="Menu.html">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="LOGIN.html">Login</a></li>
+                  <li><a href="#">Contacts</a></li>
+                  </ul>
+              </div>
+              <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="bottom-bar">
+              <p>&copy; 2023 your company. All rights reserved.</p>
+            </div>
+          </footer>
+    </body>
+
+</html>
