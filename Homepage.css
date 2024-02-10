@@ -181,6 +181,9 @@
   footer {
     background: #343434;
     padding-top: 50px;
+    width: 100%;
+    position: fixed;
+    bottom:0;
   }
   
   .fcontainer {
