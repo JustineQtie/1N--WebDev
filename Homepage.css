@@ -10,6 +10,7 @@
     background-position: center;
     align-items: center;
     background-attachment: fixed;
+    max-height: 100vh;
     zoom: 0.70;
     font-family: 'Roboto', sans-serif;
   }
